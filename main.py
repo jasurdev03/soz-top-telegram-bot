@@ -3,7 +3,7 @@ import random
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
-TOKEN = "8243098093:AAHjmZo71wqhoV5bV5Klu03e6S2qwas3glw"
+TOKEN = "Your_telegrambot_token"
 
 bot = Bot(TOKEN)
 dp = Dispatcher()
@@ -100,3 +100,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
